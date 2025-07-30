@@ -1,0 +1,34 @@
+
+        h1{
+            background-color: azure;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            color: bisque;
+            font-size: 100px;
+            border: 10px solid black;
+            text-align: center;
+            align-items: center;
+
+        }
+        p{
+            color: burlywood;
+            text-align: justify;
+            font-family: 'Times New Roman', Times, serif;
+            background-color: azure;
+            border: 5px rgb(185, 236, 236) solid;
+
+        }
+        .secao1{
+            background-color: beige;
+            margin: 50px 35px 20px; /*cima direita baico esquerda*/
+            padding: 20px;
+        }
+        .secao2{
+            background-color: rgb(65, 65, 48);
+            margin: 50px 35px 20px; /*cima direita baico esquerda*/
+            padding: 20px;
+        }
+        .secao3{
+            background-color: rgb(110, 110, 68);
+            margin: 50px 35px 20px; /*cima direita baico esquerda*/
+            padding: 20px;
+        }
