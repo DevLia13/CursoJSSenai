@@ -1,0 +1,56 @@
+
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+    padding: 20px;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box{
+background-color: aqua;
+border: 4px solid coral;
+padding: 15px;
+flex:1 1 200px; /*Responsividade automatica*/   
+text-align: center;
+}
+
+
+/*Celular*/
+@media (max-width:600px){
+
+h1{
+
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: blueviolet;
+    text-justify: auto;
+    font-size: 20px;
+    color: azure;
+
+
+}
+
+.box{
+
+flex: 1 1 100%;/*Ocupa a linha inteira*/
+background-color:black;
+border: 2px solid rgb(95, 255, 80);
+color: azure;
+padding: 5px;
+
+}
+
+
+}
+
+
+

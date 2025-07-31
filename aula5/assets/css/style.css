@@ -1,0 +1,38 @@
+/*devem ser utilizadas em qualquer lugar*/
+
+:root {
+    --cor-primaria: red;
+    --cor-secundaria:green;
+    --cor-de-texto:gray;
+    --espacamento:20px;
+    --fundo: #2555;
+    --borda: 20px;
+
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: var(--cor-de-texto);
+    margin: 0;
+    padding: var(--espacamento);
+    background-color: var(--fundo);
+    
+}
+
+.botao-primario{
+    background-color: var(--cor-primaria);
+    color: var(--cor-secundaria);
+}
+
+.botao-secundario{
+    --cor-button: #a8be5e;
+    --fundo-btn: #852;
+    color: var(--cor-button);
+    background-color: var(--fundo-btn);
+    padding: var(--espacamento);
+    border-radius: var(--borda);
+}
+
+.teste{
+    background-color: var(--fundo);
+}

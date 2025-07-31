@@ -1,0 +1,200 @@
+:root{
+    --bg-color: #574340;
+    --txt-color: #000;
+    --card-color:beige;
+    --btn-color: #82d2e0;
+}
+
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: var(--bg-color);
+    color: var(--txt-color);
+
+}
+
+.card1{
+    background-color: #8f68a7;
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    margin: 15px;
+}
+
+.card2{
+    background-color: #b1a260;
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    margin: 15px;
+}
+
+.card3{
+    background-color: #60b160;
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    margin: 15px;
+}
+
+.container{
+    background-color: #1f0f03;
+    padding: 15px;
+    border-radius: 50px;
+    border: 5px solid #1f0f03;
+    margin-top: 15px;
+
+    gap: 15px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250, 1fr));
+   
+}
+
+header{
+    background: linear-gradient(70deg, #070d31, #2e0707, #5823bb);
+    padding: 20px 330px;
+    display: flex;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    position: sticky;
+    top: 0;
+}
+
+nav{
+    background-color: #1f0f03;
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul{
+    padding: 0;
+    list-style: none;
+}
+
+nav ul li{
+    display: inline;
+    margin-right: 30px;
+}
+
+nav a{
+    color: azure;
+    text-decoration: none;
+}
+
+footer{
+    margin-top: 12%;
+    text-align: center;
+    padding: 15px;
+    background-color: #1f0f03;
+    color: azure;
+}
+
+img{
+    border-radius: 40px;
+    border: 5px solid azure;
+    max-width: 400px;
+    margin: 15px 0px 15px 220px;
+}
+
+
+p{
+    font-size: 25px;
+    background-color: #66457a;
+    border-radius: 10px;
+}
+
+h5{
+    font-size: 25px;
+    background-color: #8b7f45;
+    border-radius: 10px;
+}
+
+h6{
+    font-size: 25px;
+    background-color: #397c39;
+    border-radius: 10px;
+}
+
+
+h2{
+    font-size: 30px;
+    text-align: center;
+    background-color: #295a29;
+    border-radius: 40px;
+    color: aliceblue;
+}
+
+h4{
+    font-size: 30px;
+    text-align: center;
+    background-color: #381d49;
+    border-radius: 40px;
+    color: aliceblue;
+}
+
+h3{
+    font-size: 30px;
+    text-align: center;
+    background-color: #4b421c;
+    border-radius: 40px;
+    color: aliceblue;
+}
+
+
+
+
+/*RESPONSIVIDADE*/
+
+/*Celular*/
+@media (max-width:500px){
+
+    .card1{
+
+        gap: 15px;
+        display: grid;
+        grid-template-columns: 1fr;
+       
+    }
+
+    .card2{
+
+        gap: 15px;
+        display: grid;
+        grid-template-columns: 1fr;
+       
+    }
+
+    .card3{
+
+        gap: 15px;
+        display: grid;
+        grid-template-columns: 1fr;
+        
+       
+    }
+ 
+    p{
+        font-size: 18px;
+    }
+    
+    img{
+        border-radius: 40px;
+        border: 5px solid azure;
+        max-width: 300px;
+        margin-left: 40px;
+    }
+    
+    
+    }
+    
+    
+    
