@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testando javaScript</title>
+    <script src="script.js"></script>
+</head>
+<body>
+    <h1>metodos básicos de saidas com o JS</h1>
+    <!--Vai interagir com o terminal/console-->
+    <button onclick="console.log('mensagem no console')">Console</button>
+    <!--Cria uma mensagem de alerta-->
+    <button onclick="alert('alerta')">Alert</button>
+    <!--Vai escrever o texto do documento-->
+    <button onclick="document.write('<h2>Documento subscrito</h2>')">Document.Write</button>
+    <!--vai interagir com o corpo da pagina seguindo a loc do id-->
+    <button onclick="document.getElementById('demo').innerHTML='Texto alterado'">innerHTML</button>
+
+<p id="demo">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi maiores adipisci delectus deleniti error? Non mollitia repudiandae culpa optio iste? Magni sunt minima hic suscipit velit exercitationem fugiat beatae dolorem!</p>
+
+</body>
+
+<script>
+
+console.log('pagina carregada')
+document.write('<p> adicionar durante carregamento</p>')
+
+</script>
+
+</html>
