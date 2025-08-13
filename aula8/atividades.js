@@ -78,11 +78,13 @@ do {
 
 //atividade 9; Percorrendo array com while
 
-/* Desafio que mistura for, while e listas
-Desafio: Criar um programa de lista de compras interativo que:
+let frutas = ["maçã", "banana", "laranja", "uva"];
 
-1 Use um array para armazenar os itens
-2 Use while para manter o programa rodando até o usuário decidir sair
-3 Use for para mostrar a lista de compras
-4 Tenha opções para adicionar, remover e listar itens */
+let i = 0; while (i < frutas.length) { console.log(frutas[i]); i++; }
+
+desafio
+
+let listaCompras = []; let opcao;
+
+while (true) { opcao = prompt( "Escolha uma opção:\n1 - Adicionar item\n2 - Remover item\n3 - Listar itens\n4 - Sair" );
 
