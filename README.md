@@ -1,31 +1,40 @@
 Desemvolvimeno em JS - Senai 
 
-function saudacao(nome, horario, hora) {
-    const mensagem = 'Olá, ${nome}! Boa ${hora}!';
-  return mensagem;
- 
+function calcularImc(peso, altura) {
+  return peso / altura ;
 }
 
+function thaisCarla(tipo) {
+  const mensagem = `Olá, ${nome}! você esta ${tipo}!`;
+  return mensagem;
+}
 
-var nome = prompt("Digite seu nome: ")
-var horario = prompt("Digite o horário:" )
+var nome = prompt("Digite seu nome: ");
+var peso = prompt("Digite o seu peso:" );
+var altura = prompt("Digite o sua altura:" );
 
-if (horario > 04 && horario < 12 ) {
-    let hora = "Dia"
-    console.log(saudacao(mensagem));
+var IMC = calcularImc(peso, altura)
+
+if (IMC < 18,5 ) {
+    let tipo = "desnutrido"
+    console.log(thaisCarla(tipo));
 } 
-else if horario >13 && horario < 17{
-    let hora = "tarde"
-    console.log(saudacao(mensagem));   
+else if (IMC >= 18,5 && IMC <24,9){
+    let tipo = "no peso normal"
+    console.log(thaisCarla(tipo));
 } 
-else if horario >17 && horario < 23{
-    let hora = "noite"
-    console.log(saudacao(mensagem));
+else if (IMC >= 25 && IMC < 35 ){
+    let tipo = "com obesidade 1"
+    console.log(thaisCarla(tipo));
 } 
-else if horario < 04{
-    let hora = "noite"
-    console.log(saudacao(mensagem));
+else if (IMC >= 35 && IMC <40){
+    let hora = "obesidade 2"
+    console.log(thaisCarla(tipo));
+} 
+else if (IMC > 40){
+    let tipo = "obesidade 3"
+    console.log(thaisCarla(tipo));
 } 
 else {
-    console.log("Horário inválido!");
+    console.log("Alguma informação inválida!");
 }
