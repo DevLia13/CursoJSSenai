@@ -119,11 +119,28 @@ else {
 //  Crie uma função validarSenha que verifica se uma senha tem pelo menos 8 
 // caracteres, contém pelo menos um número e uma letra maiúscula.
 
+        function validar() {
+            const senha = document.getElementById("senha").value;
+            const resultado = document.getElementById("resultado");
 
+            // Verificando os critérios
+            if (senha.length >= 8 && /\d/.test(senha) && /[A-Z]/.test(senha)) {
+                resultado.textContent = "Senha válida!";
+                resultado.className = "valid";
+            } else {
+                resultado.textContent = "Senha inválida! Deve conter 8 caracteres, um número e uma maiúscula.";
+                resultado.className = "invalid";
+            }
+        }
 
 //  Atividade 4: Gerador de Tabuada utilize variáveis locais. 
 //  Crie uma função gerarTabuada que recebe um número e retorna sua tabuada de 1 a 10.
 
+function tabuada(mutiplicador){
+ for (num=0;num<=10;num++){
+    calculo = num * mutiplicadorconsole.log(n, "x", mutiplicador, "=", calculo)
+ }
+}
 
 
 
